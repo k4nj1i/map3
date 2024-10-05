@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4dbd44aef3055fff718b198bc4a7673c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4dbd44aef3055fff718b198bc4a7673c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4dbd44aef3055fff718b198bc4a7673c = L.map(
+                "map_4dbd44aef3055fff718b198bc4a7673c",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_91d594e70d28205cfd8a60d38674d312 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+            var marker_9befbbd634cc229fab084a51b821871c = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_68f2288c10cc9259a8c03b24627a5da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1789390b59eef7fd2777ed449366e1bc = $(`<div id="html_1789390b59eef7fd2777ed449366e1bc" style="width: 100.0%; height: 100.0%;"><b>New York City, New York</b><br>Event: Multiple incidents of sexual exploitation and forced labor occurred at Combs' New York residence and business. Linked to racketeering conspiracy and sex trafficking. Individuals Involved: Sean Combs, Rodney Jones.</div>`)[0];
+            popup_68f2288c10cc9259a8c03b24627a5da0.setContent(html_1789390b59eef7fd2777ed449366e1bc);
+        
+
+        marker_9befbbd634cc229fab084a51b821871c.bindPopup(popup_68f2288c10cc9259a8c03b24627a5da0)
+        ;
+
+        
+    
+    
+            var marker_196836ab54c14aaf8c5306e5ea550274 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_464232d0c727940affb67f8c6dc63961 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03f6bf4fac71043492f5cd21f38ff685 = $(`<div id="html_03f6bf4fac71043492f5cd21f38ff685" style="width: 100.0%; height: 100.0%;"><b>Los Angeles, California</b><br>Event: Combs' Los Angeles residence was a hub for sexual harassment, drug use, and organized 'Freak Offs.' Multiple allegations of physical and sexual violence. Individuals Involved: Sean Combs, Rodney Jones, Justin Combs, others.</div>`)[0];
+            popup_464232d0c727940affb67f8c6dc63961.setContent(html_03f6bf4fac71043492f5cd21f38ff685);
+        
+
+        marker_196836ab54c14aaf8c5306e5ea550274.bindPopup(popup_464232d0c727940affb67f8c6dc63961)
+        ;
+
+        
+    
+    
+            var marker_ac7d89e389fcaa2ab39f355a2e22d6ec = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_fff8b51cdbf223779659a8c33e0e3ef6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd108f2607c71bb1501a002bfae39ea1 = $(`<div id="html_cd108f2607c71bb1501a002bfae39ea1" style="width: 100.0%; height: 100.0%;"><b>Miami, Florida</b><br>Event: Sexual assault, drugging, and forced sexual activity occurred at Combs' Miami residence. Yung Miami's cousin allegedly assaulted Rodney Jones here. Linked to racketeering, sex trafficking, and forced labor. Individuals Involved: Sean Combs, Rodney Jones, Yung Miami’s cousin.</div>`)[0];
+            popup_fff8b51cdbf223779659a8c33e0e3ef6.setContent(html_cd108f2607c71bb1501a002bfae39ea1);
+        
+
+        marker_ac7d89e389fcaa2ab39f355a2e22d6ec.bindPopup(popup_fff8b51cdbf223779659a8c33e0e3ef6)
+        ;
+
+        
+    
+    
+            var marker_28655d1d19f9ed4557f72bbcf32629a0 = L.marker(
+                [18.3358, -64.8963],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_abf75fcc4d9d481313688c1cb991cad2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4f2bc6d8e329f860f4c42071fe02cf = $(`<div id="html_6b4f2bc6d8e329f860f4c42071fe02cf" style="width: 100.0%; height: 100.0%;"><b>US Virgin Islands</b><br>Event: Parties on a rented yacht involved drugs, commercial sex work, and sexual harassment by Cuba Gooding Jr. during 'Freak Offs.' Individuals Involved: Sean Combs, Rodney Jones, Cuba Gooding Jr.</div>`)[0];
+            popup_abf75fcc4d9d481313688c1cb991cad2.setContent(html_6b4f2bc6d8e329f860f4c42071fe02cf);
+        
+
+        marker_28655d1d19f9ed4557f72bbcf32629a0.bindPopup(popup_abf75fcc4d9d481313688c1cb991cad2)
+        ;
+
+        
+    
+    
+            var marker_ff1d0478f6303c3ba45f155fc3597609 = L.marker(
+                [34.0881, -118.3374],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0bdb9d3a1e4ed994b75fa37d8d5c58bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_609bda197b6cc1f8583f39d01e05e4b4 = $(`<div id="html_609bda197b6cc1f8583f39d01e05e4b4" style="width: 100.0%; height: 100.0%;"><b>Chalice Recording Studios, Los Angeles</b><br>Event: Shooting in September 2022 where 'G' was shot. Combs directed Rodney Jones to lie to authorities. Linked to racketeering conspiracy. Individuals Involved: Sean Combs, Justin Combs, 'G', Rodney Jones.</div>`)[0];
+            popup_0bdb9d3a1e4ed994b75fa37d8d5c58bb.setContent(html_609bda197b6cc1f8583f39d01e05e4b4);
+        
+
+        marker_ff1d0478f6303c3ba45f155fc3597609.bindPopup(popup_0bdb9d3a1e4ed994b75fa37d8d5c58bb)
+        ;
+
+        
+    
+    
+            var marker_ef8e0204ed1de5aff545a3007183ca40 = L.marker(
+                [34.0765, -118.433],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0b0c53e0bb180fed196456799d233c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_689dbe4a64a435f470d1ad85360dbc30 = $(`<div id="html_689dbe4a64a435f470d1ad85360dbc30" style="width: 100.0%; height: 100.0%;"><b>200 South Mapleton Dr., Beverly Hills, CA</b><br>Event: Primary residence of Sean Combs, where numerous 'Freak Offs' took place, involving commercial sex workers and narcotics. Individuals Involved: Sean Combs, high-ranking employees, Rodney Jones.</div>`)[0];
+            popup_0b0c53e0bb180fed196456799d233c19.setContent(html_689dbe4a64a435f470d1ad85360dbc30);
+        
+
+        marker_ef8e0204ed1de5aff545a3007183ca40.bindPopup(popup_0b0c53e0bb180fed196456799d233c19)
+        ;
+
+        
+    
+    
+            var marker_7ce07ccac2b4eceed8a31da290047223 = L.marker(
+                [34.098, -118.3224],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_5d64a3b517420abe58e83b06d8b35359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd631e78003bc79bc130150a551a84da = $(`<div id="html_dd631e78003bc79bc130150a551a84da" style="width: 100.0%; height: 100.0%;"><b>1550 N El Centro Ave, Los Angeles, CA</b><br>Event: Residence of Justin Dior Combs. Linked to drug-related activities and racketeering. Individuals Involved: Justin Combs, Sean Combs.</div>`)[0];
+            popup_5d64a3b517420abe58e83b06d8b35359.setContent(html_dd631e78003bc79bc130150a551a84da);
+        
+
+        marker_7ce07ccac2b4eceed8a31da290047223.bindPopup(popup_5d64a3b517420abe58e83b06d8b35359)
+        ;
+
+        
+    
+    
+            var marker_f43e5bf3ce21b5fa57a8ea292d3d2343 = L.marker(
+                [33.6783, -116.2745],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_642e1510224049d23928160391740817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_204b4f800011d0cbf5ac9343d0045ded = $(`<div id="html_204b4f800011d0cbf5ac9343d0045ded" style="width: 100.0%; height: 100.0%;"><b>53551 Ross Ave Unit 34A, La Quinta, CA</b><br>Event: Residence of Lucian Charles Grainge, where parties involving commercial sex workers were held. Linked to racketeering activities. Individuals Involved: Lucian Charles Grainge, Sean Combs.</div>`)[0];
+            popup_642e1510224049d23928160391740817.setContent(html_204b4f800011d0cbf5ac9343d0045ded);
+        
+
+        marker_f43e5bf3ce21b5fa57a8ea292d3d2343.bindPopup(popup_642e1510224049d23928160391740817)
+        ;
+
+        
+    
+    
+            var marker_30145b24fc3c01b5928be77b0cc070b9 = L.marker(
+                [34.0381, -118.5322],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_cf0082303e00ece62b680e4b7ac64300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_403cb61dabf89ab8ef24105ca6037075 = $(`<div id="html_403cb61dabf89ab8ef24105ca6037075" style="width: 100.0%; height: 100.0%;"><b>668 Chautauqua Blvd, Pacific Palisades, CA</b><br>Event: Another residence of Lucian Charles Grainge, where parties and 'Freak Offs' were held. Individuals Involved: Lucian Charles Grainge, Sean Combs.</div>`)[0];
+            popup_cf0082303e00ece62b680e4b7ac64300.setContent(html_403cb61dabf89ab8ef24105ca6037075);
+        
+
+        marker_30145b24fc3c01b5928be77b0cc070b9.bindPopup(popup_cf0082303e00ece62b680e4b7ac64300)
+        ;
+
+        
+    
+    
+            var marker_69047cd0cdea1f65d736d06f17c57415 = L.marker(
+                [34.1571, -118.425],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_a945afaed2d9ddfeace0a4c9c78e61fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7900429472a14e153c0cad089a652f9d = $(`<div id="html_7900429472a14e153c0cad089a652f9d" style="width: 100.0%; height: 100.0%;"><b>13701 Riverside Dr Apt 8Flr, Sherman Oaks, CA</b><br>Event: Residence of Ethiopia Habtemariam, involved in business-related criminal activities tied to racketeering. Individuals Involved: Ethiopia Habtemariam, Sean Combs.</div>`)[0];
+            popup_a945afaed2d9ddfeace0a4c9c78e61fb.setContent(html_7900429472a14e153c0cad089a652f9d);
+        
+
+        marker_69047cd0cdea1f65d736d06f17c57415.bindPopup(popup_a945afaed2d9ddfeace0a4c9c78e61fb)
+        ;
+
+        
+    
+    
+            var marker_39da8dc2e02776332d119efc3e1e9c67 = L.marker(
+                [34.0633, -118.4325],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_670e156e5d247037ee3afc080ca37ede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf884358683e408e801209d61749064f = $(`<div id="html_bf884358683e408e801209d61749064f" style="width: 100.0%; height: 100.0%;"><b>10445 Wilshire Blvd Apt 501, Los Angeles, CA</b><br>Event: Residence of Kristina Khorram, involved in covering up illegal activities related to racketeering. Individuals Involved: Kristina Khorram, Sean Combs.</div>`)[0];
+            popup_670e156e5d247037ee3afc080ca37ede.setContent(html_bf884358683e408e801209d61749064f);
+        
+
+        marker_39da8dc2e02776332d119efc3e1e9c67.bindPopup(popup_670e156e5d247037ee3afc080ca37ede)
+        ;
+
+        
+    
+    
+            var marker_cd1b00546e70d95565be2a272f1c3012 = L.marker(
+                [34.103, -118.3265],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_1d15b968177a2246464c5b9f741c0e3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8589330fbb9e26e77f4f42365e5855c = $(`<div id="html_f8589330fbb9e26e77f4f42365e5855c" style="width: 100.0%; height: 100.0%;"><b>1750 Vine St, Los Angeles, CA</b><br>Event: Principal business location for Motown Records. Business activities related to the racketeering enterprise. Individuals Involved: Sean Combs, Ethiopia Habtemariam.</div>`)[0];
+            popup_1d15b968177a2246464c5b9f741c0e3f.setContent(html_f8589330fbb9e26e77f4f42365e5855c);
+        
+
+        marker_cd1b00546e70d95565be2a272f1c3012.bindPopup(popup_1d15b968177a2246464c5b9f741c0e3f)
+        ;
+
+        
+    
+    
+            var marker_6b994df31e8c2e9358a226bf285ed812 = L.marker(
+                [34.0209, -118.4814],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_249caaf748791a9c3dc929b66e576e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_250bf7311a6e4bec559e6df997b4b8a3 = $(`<div id="html_250bf7311a6e4bec559e6df997b4b8a3" style="width: 100.0%; height: 100.0%;"><b>2220 Colorado Avenue, Santa Monica, CA</b><br>Event: Principal business location for Universal Music Group, where Lucian Charles Grainge supported Combs' illegal enterprises. Individuals Involved: Lucian Charles Grainge, Sean Combs.</div>`)[0];
+            popup_249caaf748791a9c3dc929b66e576e0d.setContent(html_250bf7311a6e4bec559e6df997b4b8a3);
+        
+
+        marker_6b994df31e8c2e9358a226bf285ed812.bindPopup(popup_249caaf748791a9c3dc929b66e576e0d)
+        ;
+
+        
+    
+    
+            var marker_eedb844096ad11c6ef234ad7b901bf44 = L.marker(
+                [34.0972, -118.3272],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_30c8991aa1a051b242468621d390285a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8129da45ba905c06262f8967d631e02a = $(`<div id="html_8129da45ba905c06262f8967d631e02a" style="width: 100.0%; height: 100.0%;"><b>6255 Sunset Boulevard Suite 713, Los Angeles, CA</b><br>Event: Principal place of business for Love Records, involved in organizing 'Freak Offs' and related criminal activities. Individuals Involved: Sean Combs, Rodney Jones.</div>`)[0];
+            popup_30c8991aa1a051b242468621d390285a.setContent(html_8129da45ba905c06262f8967d631e02a);
+        
+
+        marker_eedb844096ad11c6ef234ad7b901bf44.bindPopup(popup_30c8991aa1a051b242468621d390285a)
+        ;
+
+        
+    
+    
+            var marker_ec20ec53ac108c905bba6c187a5bab55 = L.marker(
+                [25.8081, -80.2519],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_aedfa9447c5bdc10dd00d2657704f067 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a39cdd754d3c34828d304d946a452cb8 = $(`<div id="html_a39cdd754d3c34828d304d946a452cb8" style="width: 100.0%; height: 100.0%;"><b>Booby Trap on the River, Miami</b><br>Event: Strip club where Combs allegedly forced Jones to recruit commercial sex workers. Linked to sex trafficking and racketeering. Individuals Involved: Sean Combs, Rodney Jones, sex workers.</div>`)[0];
+            popup_aedfa9447c5bdc10dd00d2657704f067.setContent(html_a39cdd754d3c34828d304d946a452cb8);
+        
+
+        marker_ec20ec53ac108c905bba6c187a5bab55.bindPopup(popup_aedfa9447c5bdc10dd00d2657704f067)
+        ;
+
+        
+    
+    
+            var marker_6ad385ae91eb50e1056498277b681067 = L.marker(
+                [25.7822, -80.1507],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_fb210df7425ec05236d0451cb5950fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01b3f447cee4a8cca946ea3c3fa11cbf = $(`<div id="html_01b3f447cee4a8cca946ea3c3fa11cbf" style="width: 100.0%; height: 100.0%;"><b>1 Star Island, Miami, FL</b><br>Event: Property allegedly promised to Rodney Jones in exchange for continued work and compliance with Combs' demands. Linked to racketeering and exploitation. Individuals Involved: Sean Combs, Rodney Jones.</div>`)[0];
+            popup_fb210df7425ec05236d0451cb5950fd4.setContent(html_01b3f447cee4a8cca946ea3c3fa11cbf);
+        
+
+        marker_6ad385ae91eb50e1056498277b681067.bindPopup(popup_fb210df7425ec05236d0451cb5950fd4)
+        ;
+
+        
+    
+    
+            var marker_d6a86fc877727acf66bae959a2faeecf = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_56abb4ecb8d4098ec81c81d2ec546ffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfc3dd7159b31deae54fff5e5c7abdc6 = $(`<div id="html_bfc3dd7159b31deae54fff5e5c7abdc6" style="width: 100.0%; height: 100.0%;"><b>New York City, New York</b><br>Event: Multiple incidents of sexual exploitation and forced labor occurred at Combs' New York residence and business. Linked to racketeering conspiracy and sex trafficking.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Forced Labor (20 years).</div>`)[0];
+            popup_56abb4ecb8d4098ec81c81d2ec546ffb.setContent(html_bfc3dd7159b31deae54fff5e5c7abdc6);
+        
+
+        marker_d6a86fc877727acf66bae959a2faeecf.bindPopup(popup_56abb4ecb8d4098ec81c81d2ec546ffb)
+        ;
+
+        
+    
+    
+            var marker_c6fdd68a480514c33fd46ff9f068baf0 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_28e1f699cf11cfc23b43393d4547003c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ddcc2a3a88498a710e86eb2ba5cd3c = $(`<div id="html_97ddcc2a3a88498a710e86eb2ba5cd3c" style="width: 100.0%; height: 100.0%;"><b>Los Angeles, California</b><br>Event: Combs' Los Angeles residence was a hub for sexual harassment, drug use, and organized 'Freak Offs.' Multiple allegations of physical and sexual violence.         Individuals Involved: Sean Combs, Rodney Jones, Justin Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life), Forced Labor (20 years).</div>`)[0];
+            popup_28e1f699cf11cfc23b43393d4547003c.setContent(html_97ddcc2a3a88498a710e86eb2ba5cd3c);
+        
+
+        marker_c6fdd68a480514c33fd46ff9f068baf0.bindPopup(popup_28e1f699cf11cfc23b43393d4547003c)
+        ;
+
+        
+    
+    
+            var marker_ec3ef389aeb52a0259b21cc55830e1a5 = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_95240d927196e3d3e001a83db7ddc2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45bf37a632940925bb492f1c090598ec = $(`<div id="html_45bf37a632940925bb492f1c090598ec" style="width: 100.0%; height: 100.0%;"><b>Miami, Florida</b><br>Event: Sexual assault, drugging, and forced sexual activity occurred at Combs' Miami residence. Yung Miami's cousin allegedly assaulted Rodney Jones here.         Linked to racketeering, sex trafficking, and forced labor.         Individuals Involved: Sean Combs, Rodney Jones, Yung Miami’s cousin.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life).</div>`)[0];
+            popup_95240d927196e3d3e001a83db7ddc2f7.setContent(html_45bf37a632940925bb492f1c090598ec);
+        
+
+        marker_ec3ef389aeb52a0259b21cc55830e1a5.bindPopup(popup_95240d927196e3d3e001a83db7ddc2f7)
+        ;
+
+        
+    
+    
+            var marker_a40dfd79d5931ff6a7f342d3a9cdd65a = L.marker(
+                [18.3358, -64.8963],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_e25105e4d984306258f683f5180d78e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f6143b4b42b63cbdcf2c212553fd89 = $(`<div id="html_15f6143b4b42b63cbdcf2c212553fd89" style="width: 100.0%; height: 100.0%;"><b>US Virgin Islands</b><br>Event: Parties on a rented yacht involved drugs, commercial sex work, and sexual harassment by Cuba Gooding Jr. during 'Freak Offs.'         Individuals Involved: Sean Combs, Rodney Jones, Cuba Gooding Jr.         Potential Jail Time: Sex Trafficking (15 years to Life), Drug Distribution (up to Life).</div>`)[0];
+            popup_e25105e4d984306258f683f5180d78e7.setContent(html_15f6143b4b42b63cbdcf2c212553fd89);
+        
+
+        marker_a40dfd79d5931ff6a7f342d3a9cdd65a.bindPopup(popup_e25105e4d984306258f683f5180d78e7)
+        ;
+
+        
+    
+    
+            var marker_a15472c0660e70544f02d82e75f4e3db = L.marker(
+                [34.0881, -118.3374],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_bf45d68b9944f145582cc78732332608 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd5d7442da9c14fc17218478909d0ce3 = $(`<div id="html_cd5d7442da9c14fc17218478909d0ce3" style="width: 100.0%; height: 100.0%;"><b>Chalice Recording Studios, Los Angeles</b><br>Event: Shooting in September 2022 where 'G' was shot. Combs directed Rodney Jones to lie to authorities. Linked to racketeering conspiracy.         Individuals Involved: Sean Combs, Justin Combs, 'G', Rodney Jones.         Potential Jail Time: Racketeering (20 years), Kidnapping (up to Life), Obstruction of Justice (10 to 20 years).</div>`)[0];
+            popup_bf45d68b9944f145582cc78732332608.setContent(html_cd5d7442da9c14fc17218478909d0ce3);
+        
+
+        marker_a15472c0660e70544f02d82e75f4e3db.bindPopup(popup_bf45d68b9944f145582cc78732332608)
+        ;
+
+        
+    
+    
+            var marker_efc7daf45c451e867698d37fbe2895ba = L.marker(
+                [34.0765, -118.433],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_efe5ddb66cf8fe40a3ab66c34c885378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a061838fcc9c964dffe318820781f8 = $(`<div id="html_75a061838fcc9c964dffe318820781f8" style="width: 100.0%; height: 100.0%;"><b>200 South Mapleton Dr., Beverly Hills, CA</b><br>Event: Primary residence of Sean Combs, where numerous 'Freak Offs' took place, involving commercial sex workers and narcotics.         Individuals Involved: Sean Combs, high-ranking employees, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life).</div>`)[0];
+            popup_efe5ddb66cf8fe40a3ab66c34c885378.setContent(html_75a061838fcc9c964dffe318820781f8);
+        
+
+        marker_efc7daf45c451e867698d37fbe2895ba.bindPopup(popup_efe5ddb66cf8fe40a3ab66c34c885378)
+        ;
+
+        
+    
+    
+            var marker_f8b16369dde17fe830def899b9f4f161 = L.marker(
+                [34.098, -118.3224],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_1780196577dfb3afab4ef83ae8304345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62fc6c234d295d31d5b54964396b8cae = $(`<div id="html_62fc6c234d295d31d5b54964396b8cae" style="width: 100.0%; height: 100.0%;"><b>1550 N El Centro Ave, Los Angeles, CA</b><br>Event: Residence of Justin Dior Combs. Linked to drug-related activities and racketeering.         Individuals Involved: Justin Combs, Sean Combs.         Potential Jail Time: Racketeering (20 years), Drug Distribution (up to Life).</div>`)[0];
+            popup_1780196577dfb3afab4ef83ae8304345.setContent(html_62fc6c234d295d31d5b54964396b8cae);
+        
+
+        marker_f8b16369dde17fe830def899b9f4f161.bindPopup(popup_1780196577dfb3afab4ef83ae8304345)
+        ;
+
+        
+    
+    
+            var marker_a6cba1ca671d7b686c1abecef99b5500 = L.marker(
+                [33.6783, -116.2745],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_9869ccf4ec44df14ae4dd267e447ee89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10b0d9c7e0d7259e6ce22453f6cc3600 = $(`<div id="html_10b0d9c7e0d7259e6ce22453f6cc3600" style="width: 100.0%; height: 100.0%;"><b>53551 Ross Ave Unit 34A, La Quinta, CA</b><br>Event: Residence of Lucian Charles Grainge, where parties involving commercial sex workers were held. Linked to racketeering activities.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).</div>`)[0];
+            popup_9869ccf4ec44df14ae4dd267e447ee89.setContent(html_10b0d9c7e0d7259e6ce22453f6cc3600);
+        
+
+        marker_a6cba1ca671d7b686c1abecef99b5500.bindPopup(popup_9869ccf4ec44df14ae4dd267e447ee89)
+        ;
+
+        
+    
+    
+            var marker_8227899a80ae8c2a40050ba977a248d2 = L.marker(
+                [34.0381, -118.5322],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_a27876666a13fd5b06389d06623243dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42df6f651cd01f8c0fd8d28b17c7f7b8 = $(`<div id="html_42df6f651cd01f8c0fd8d28b17c7f7b8" style="width: 100.0%; height: 100.0%;"><b>668 Chautauqua Blvd, Pacific Palisades, CA</b><br>Event: Another residence of Lucian Charles Grainge, where parties and 'Freak Offs' were held.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).</div>`)[0];
+            popup_a27876666a13fd5b06389d06623243dd.setContent(html_42df6f651cd01f8c0fd8d28b17c7f7b8);
+        
+
+        marker_8227899a80ae8c2a40050ba977a248d2.bindPopup(popup_a27876666a13fd5b06389d06623243dd)
+        ;
+
+        
+    
+    
+            var marker_f278abe64d69fa69cc613b9f6bd50168 = L.marker(
+                [34.1571, -118.425],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_c7edd94e86ac67be22788479c6201716 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dbd40dbbaf3835062481686ec3af5b9 = $(`<div id="html_8dbd40dbbaf3835062481686ec3af5b9" style="width: 100.0%; height: 100.0%;"><b>13701 Riverside Dr Apt 8Flr, Sherman Oaks, CA</b><br>Event: Residence of Ethiopia Habtemariam, involved in business-related criminal activities tied to racketeering.         Individuals Involved: Ethiopia Habtemariam, Sean Combs.         Potential Jail Time: Racketeering (20 years).</div>`)[0];
+            popup_c7edd94e86ac67be22788479c6201716.setContent(html_8dbd40dbbaf3835062481686ec3af5b9);
+        
+
+        marker_f278abe64d69fa69cc613b9f6bd50168.bindPopup(popup_c7edd94e86ac67be22788479c6201716)
+        ;
+
+        
+    
+    
+            var marker_97e199c3c232f9e7d2f3c1aec4c4be8a = L.marker(
+                [34.0633, -118.4325],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0a80ac5505a58a4ef163daaa83313de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81d8f47013dd182106d77b88da80c680 = $(`<div id="html_81d8f47013dd182106d77b88da80c680" style="width: 100.0%; height: 100.0%;"><b>10445 Wilshire Blvd Apt 501, Los Angeles, CA</b><br>Event: Residence of Kristina Khorram, involved in covering up illegal activities related to racketeering.         Individuals Involved: Kristina Khorram, Sean Combs.         Potential Jail Time: Racketeering (20 years), Obstruction of Justice (10 to 20 years).</div>`)[0];
+            popup_0a80ac5505a58a4ef163daaa83313de8.setContent(html_81d8f47013dd182106d77b88da80c680);
+        
+
+        marker_97e199c3c232f9e7d2f3c1aec4c4be8a.bindPopup(popup_0a80ac5505a58a4ef163daaa83313de8)
+        ;
+
+        
+    
+    
+            var marker_1c265eef1a5fdb31713a4a68deb460b5 = L.marker(
+                [34.103, -118.3265],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_163ce6f39b5f20a6d942bf236c3cf33a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da4c8f309fda24342d243d6a6c1662d7 = $(`<div id="html_da4c8f309fda24342d243d6a6c1662d7" style="width: 100.0%; height: 100.0%;"><b>1750 Vine St, Los Angeles, CA</b><br>Event: Principal business location for Motown Records. Business activities related to the racketeering enterprise.         Individuals Involved: Sean Combs, Ethiopia Habtemariam.         Potential Jail Time: Racketeering (20 years).</div>`)[0];
+            popup_163ce6f39b5f20a6d942bf236c3cf33a.setContent(html_da4c8f309fda24342d243d6a6c1662d7);
+        
+
+        marker_1c265eef1a5fdb31713a4a68deb460b5.bindPopup(popup_163ce6f39b5f20a6d942bf236c3cf33a)
+        ;
+
+        
+    
+    
+            var marker_49ab5ebc9b415559e52612d1f38c7ca9 = L.marker(
+                [34.0209, -118.4814],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_eec6cef3f26807a0340122091b233b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc17a875bf193b4f90e2bc5caf1d64c = $(`<div id="html_3cc17a875bf193b4f90e2bc5caf1d64c" style="width: 100.0%; height: 100.0%;"><b>2220 Colorado Avenue, Santa Monica, CA</b><br>Event: Principal business location for Universal Music Group, where Lucian Charles Grainge supported Combs' illegal enterprises.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years).</div>`)[0];
+            popup_eec6cef3f26807a0340122091b233b3f.setContent(html_3cc17a875bf193b4f90e2bc5caf1d64c);
+        
+
+        marker_49ab5ebc9b415559e52612d1f38c7ca9.bindPopup(popup_eec6cef3f26807a0340122091b233b3f)
+        ;
+
+        
+    
+    
+            var marker_f5a2f9269ab73a78c1c1a4e8d548cb1e = L.marker(
+                [34.0972, -118.3272],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_ef66bbb86362b5b3fb597cf9abc2af9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfbd750b64121e5bc8a1874831b20484 = $(`<div id="html_bfbd750b64121e5bc8a1874831b20484" style="width: 100.0%; height: 100.0%;"><b>6255 Sunset Boulevard Suite 713, Los Angeles, CA</b><br>Event: Principal place of business for Love Records, involved in organizing 'Freak Offs' and related criminal activities.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).</div>`)[0];
+            popup_ef66bbb86362b5b3fb597cf9abc2af9c.setContent(html_bfbd750b64121e5bc8a1874831b20484);
+        
+
+        marker_f5a2f9269ab73a78c1c1a4e8d548cb1e.bindPopup(popup_ef66bbb86362b5b3fb597cf9abc2af9c)
+        ;
+
+        
+    
+    
+            var marker_e1c546ddad3a41070e5fc2d671715f8d = L.marker(
+                [25.8081, -80.2519],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_9883c5e9aefce42ca50d366b1c392ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4068e6bc82528b1e8b68a5e600545af = $(`<div id="html_f4068e6bc82528b1e8b68a5e600545af" style="width: 100.0%; height: 100.0%;"><b>Booby Trap on the River, Miami</b><br>Event: Strip club where Combs allegedly forced Jones to recruit commercial sex workers. Linked to sex trafficking and racketeering.         Individuals Involved: Sean Combs, Rodney Jones, sex workers.         Potential Jail Time: Sex Trafficking (15 years to Life), Racketeering (20 years).</div>`)[0];
+            popup_9883c5e9aefce42ca50d366b1c392ba2.setContent(html_f4068e6bc82528b1e8b68a5e600545af);
+        
+
+        marker_e1c546ddad3a41070e5fc2d671715f8d.bindPopup(popup_9883c5e9aefce42ca50d366b1c392ba2)
+        ;
+
+        
+    
+    
+            var marker_7a162c9ebfb04e7f9e94fc23e32b57a7 = L.marker(
+                [25.7822, -80.1507],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_51c48ca856aff956550514c60843e64c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b43a3c95bf4d3ed8ea3002acb13239a = $(`<div id="html_6b43a3c95bf4d3ed8ea3002acb13239a" style="width: 100.0%; height: 100.0%;"><b>1 Star Island, Miami, FL</b><br>Event: Property allegedly promised to Rodney Jones in exchange for continued work and compliance with Combs' demands. Linked to racketeering and exploitation.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years).</div>`)[0];
+            popup_51c48ca856aff956550514c60843e64c.setContent(html_6b43a3c95bf4d3ed8ea3002acb13239a);
+        
+
+        marker_7a162c9ebfb04e7f9e94fc23e32b57a7.bindPopup(popup_51c48ca856aff956550514c60843e64c)
+        ;
+
+        
+    
+    
+            var marker_3d2ff588788d8c77a8c564bef3d7d682 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_f6cc7d3038685cd0ea58781295c26922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96deb55f9984e1bbd00371b52ecbdea9 = $(`<div id="html_96deb55f9984e1bbd00371b52ecbdea9" style="width: 100.0%; height: 100.0%;"><b>New York City, New York</b><br>Event: Multiple incidents of sexual exploitation and forced labor occurred at Combs' New York residence and business. Linked to racketeering conspiracy and sex trafficking.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Forced Labor (20 years).         Potential Fines: Minimum $750,000 (Racketeering, Sex Trafficking, Forced Labor)</div>`)[0];
+            popup_f6cc7d3038685cd0ea58781295c26922.setContent(html_96deb55f9984e1bbd00371b52ecbdea9);
+        
+
+        marker_3d2ff588788d8c77a8c564bef3d7d682.bindPopup(popup_f6cc7d3038685cd0ea58781295c26922)
+        ;
+
+        
+    
+    
+            var marker_131ac7304df6228f67815d4e2af1ed55 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_ee29a54320ef01b7337c5f91f8b300f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f688df8228d752380585cd11ecb5461 = $(`<div id="html_2f688df8228d752380585cd11ecb5461" style="width: 100.0%; height: 100.0%;"><b>Los Angeles, California</b><br>Event: Combs' Los Angeles residence was a hub for sexual harassment, drug use, and organized 'Freak Offs.' Multiple allegations of physical and sexual violence.         Individuals Involved: Sean Combs, Rodney Jones, Justin Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life), Forced Labor (20 years).         Potential Fines: Minimum $1,000,000 (Racketeering, Sex Trafficking, Drug Distribution, Forced Labor)</div>`)[0];
+            popup_ee29a54320ef01b7337c5f91f8b300f3.setContent(html_2f688df8228d752380585cd11ecb5461);
+        
+
+        marker_131ac7304df6228f67815d4e2af1ed55.bindPopup(popup_ee29a54320ef01b7337c5f91f8b300f3)
+        ;
+
+        
+    
+    
+            var marker_08227b0a847c42f36129b8faeeb3c02d = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_d4d56e4da7e9a08faef454ea793b948f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4590d1329c1c86f0eb99a25740e54e2f = $(`<div id="html_4590d1329c1c86f0eb99a25740e54e2f" style="width: 100.0%; height: 100.0%;"><b>Miami, Florida</b><br>Event: Sexual assault, drugging, and forced sexual activity occurred at Combs' Miami residence. Yung Miami's cousin allegedly assaulted Rodney Jones here.         Linked to racketeering, sex trafficking, and forced labor.         Individuals Involved: Sean Combs, Rodney Jones, Yung Miami’s cousin.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life).         Potential Fines: Minimum $750,000 (Racketeering, Sex Trafficking, Drug Distribution)</div>`)[0];
+            popup_d4d56e4da7e9a08faef454ea793b948f.setContent(html_4590d1329c1c86f0eb99a25740e54e2f);
+        
+
+        marker_08227b0a847c42f36129b8faeeb3c02d.bindPopup(popup_d4d56e4da7e9a08faef454ea793b948f)
+        ;
+
+        
+    
+    
+            var marker_6369d698dc3444822278d269be889c54 = L.marker(
+                [18.3358, -64.8963],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_568af4a2a064f1adb067054c190edd56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c800f05b908440839ac6e1eda07c2020 = $(`<div id="html_c800f05b908440839ac6e1eda07c2020" style="width: 100.0%; height: 100.0%;"><b>US Virgin Islands</b><br>Event: Parties on a rented yacht involved drugs, commercial sex work, and sexual harassment by Cuba Gooding Jr. during 'Freak Offs.'         Individuals Involved: Sean Combs, Rodney Jones, Cuba Gooding Jr.         Potential Jail Time: Sex Trafficking (15 years to Life), Drug Distribution (up to Life).         Potential Fines: Minimum $500,000 (Sex Trafficking, Drug Distribution)</div>`)[0];
+            popup_568af4a2a064f1adb067054c190edd56.setContent(html_c800f05b908440839ac6e1eda07c2020);
+        
+
+        marker_6369d698dc3444822278d269be889c54.bindPopup(popup_568af4a2a064f1adb067054c190edd56)
+        ;
+
+        
+    
+    
+            var marker_a17fd33a27e6d123e311fc6be44163a9 = L.marker(
+                [34.0881, -118.3374],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0cd39727e65851ed098e89b3b79cf16d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a906b7a12dcee0b46188c21e7ec04f0d = $(`<div id="html_a906b7a12dcee0b46188c21e7ec04f0d" style="width: 100.0%; height: 100.0%;"><b>Chalice Recording Studios, Los Angeles</b><br>Event: Shooting in September 2022 where 'G' was shot. Combs directed Rodney Jones to lie to authorities. Linked to racketeering conspiracy.         Individuals Involved: Sean Combs, Justin Combs, 'G', Rodney Jones.         Potential Jail Time: Racketeering (20 years), Kidnapping (up to Life), Obstruction of Justice (10 to 20 years).         Potential Fines: Minimum $750,000 (Racketeering, Kidnapping, Obstruction of Justice)</div>`)[0];
+            popup_0cd39727e65851ed098e89b3b79cf16d.setContent(html_a906b7a12dcee0b46188c21e7ec04f0d);
+        
+
+        marker_a17fd33a27e6d123e311fc6be44163a9.bindPopup(popup_0cd39727e65851ed098e89b3b79cf16d)
+        ;
+
+        
+    
+    
+            var marker_0379776301a96e3a16203ec9b79ea2d4 = L.marker(
+                [34.0765, -118.433],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_6a710c6a3157ea9552d7deeaea9c5b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d32e74ec029187cb969c93f630b3ea32 = $(`<div id="html_d32e74ec029187cb969c93f630b3ea32" style="width: 100.0%; height: 100.0%;"><b>200 South Mapleton Dr., Beverly Hills, CA</b><br>Event: Primary residence of Sean Combs, where numerous 'Freak Offs' took place, involving commercial sex workers and narcotics.         Individuals Involved: Sean Combs, high-ranking employees, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life), Drug Distribution (up to Life).         Potential Fines: Minimum $1,000,000 (Racketeering, Sex Trafficking, Drug Distribution)</div>`)[0];
+            popup_6a710c6a3157ea9552d7deeaea9c5b47.setContent(html_d32e74ec029187cb969c93f630b3ea32);
+        
+
+        marker_0379776301a96e3a16203ec9b79ea2d4.bindPopup(popup_6a710c6a3157ea9552d7deeaea9c5b47)
+        ;
+
+        
+    
+    
+            var marker_b9833dea134c0a11255772fd5b2ef1dc = L.marker(
+                [34.098, -118.3224],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_c9ee9de7ccd03340eb758fd07becca7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d513431e56be24e397d21b57f409dda5 = $(`<div id="html_d513431e56be24e397d21b57f409dda5" style="width: 100.0%; height: 100.0%;"><b>1550 N El Centro Ave, Los Angeles, CA</b><br>Event: Residence of Justin Dior Combs. Linked to drug-related activities and racketeering.         Individuals Involved: Justin Combs, Sean Combs.         Potential Jail Time: Racketeering (20 years), Drug Distribution (up to Life).         Potential Fines: Minimum $750,000 (Racketeering, Drug Distribution)</div>`)[0];
+            popup_c9ee9de7ccd03340eb758fd07becca7b.setContent(html_d513431e56be24e397d21b57f409dda5);
+        
+
+        marker_b9833dea134c0a11255772fd5b2ef1dc.bindPopup(popup_c9ee9de7ccd03340eb758fd07becca7b)
+        ;
+
+        
+    
+    
+            var marker_22421ae22b1ff1147c444a0f44455b3c = L.marker(
+                [33.6783, -116.2745],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_55847c5ad86bff3780b17d44aca0ad8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_991d8a035531cdf835814e48fc0755f1 = $(`<div id="html_991d8a035531cdf835814e48fc0755f1" style="width: 100.0%; height: 100.0%;"><b>53551 Ross Ave Unit 34A, La Quinta, CA</b><br>Event: Residence of Lucian Charles Grainge, where parties involving commercial sex workers were held. Linked to racketeering activities.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).         Potential Fines: Minimum $500,000 (Racketeering, Sex Trafficking)</div>`)[0];
+            popup_55847c5ad86bff3780b17d44aca0ad8f.setContent(html_991d8a035531cdf835814e48fc0755f1);
+        
+
+        marker_22421ae22b1ff1147c444a0f44455b3c.bindPopup(popup_55847c5ad86bff3780b17d44aca0ad8f)
+        ;
+
+        
+    
+    
+            var marker_8694f6cb3a2024d2f9e458f92a40f8c2 = L.marker(
+                [34.0381, -118.5322],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_5e3e1e434490b9d69fa8c104c4290c93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c6e9c84f1e98358e655f2b3bcb4d0b9 = $(`<div id="html_6c6e9c84f1e98358e655f2b3bcb4d0b9" style="width: 100.0%; height: 100.0%;"><b>668 Chautauqua Blvd, Pacific Palisades, CA</b><br>Event: Another residence of Lucian Charles Grainge, where parties and 'Freak Offs' were held.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).         Potential Fines: Minimum $500,000 (Racketeering, Sex Trafficking)</div>`)[0];
+            popup_5e3e1e434490b9d69fa8c104c4290c93.setContent(html_6c6e9c84f1e98358e655f2b3bcb4d0b9);
+        
+
+        marker_8694f6cb3a2024d2f9e458f92a40f8c2.bindPopup(popup_5e3e1e434490b9d69fa8c104c4290c93)
+        ;
+
+        
+    
+    
+            var marker_385b141079f12d95c80f097a23a92f4e = L.marker(
+                [34.1571, -118.425],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_4d27e1b87928cfb44f24e1b03c803e47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c844901e5a5b22b1cc06df8b1cd6029a = $(`<div id="html_c844901e5a5b22b1cc06df8b1cd6029a" style="width: 100.0%; height: 100.0%;"><b>13701 Riverside Dr Apt 8Flr, Sherman Oaks, CA</b><br>Event: Residence of Ethiopia Habtemariam, involved in business-related criminal activities tied to racketeering.         Individuals Involved: Ethiopia Habtemariam, Sean Combs.         Potential Jail Time: Racketeering (20 years).         Potential Fines: Minimum $250,000 (Racketeering)</div>`)[0];
+            popup_4d27e1b87928cfb44f24e1b03c803e47.setContent(html_c844901e5a5b22b1cc06df8b1cd6029a);
+        
+
+        marker_385b141079f12d95c80f097a23a92f4e.bindPopup(popup_4d27e1b87928cfb44f24e1b03c803e47)
+        ;
+
+        
+    
+    
+            var marker_f41044322e3982d69509261938b16609 = L.marker(
+                [34.0633, -118.4325],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_381db984c74fe4ce48943212a7a05d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1908b24181aba5727d4b0bc4c4d86e15 = $(`<div id="html_1908b24181aba5727d4b0bc4c4d86e15" style="width: 100.0%; height: 100.0%;"><b>10445 Wilshire Blvd Apt 501, Los Angeles, CA</b><br>Event: Residence of Kristina Khorram, involved in covering up illegal activities related to racketeering.         Individuals Involved: Kristina Khorram, Sean Combs.         Potential Jail Time: Racketeering (20 years), Obstruction of Justice (10 to 20 years).         Potential Fines: Minimum $500,000 (Racketeering, Obstruction of Justice)</div>`)[0];
+            popup_381db984c74fe4ce48943212a7a05d37.setContent(html_1908b24181aba5727d4b0bc4c4d86e15);
+        
+
+        marker_f41044322e3982d69509261938b16609.bindPopup(popup_381db984c74fe4ce48943212a7a05d37)
+        ;
+
+        
+    
+    
+            var marker_06ca85fd141e4eb95d8d1a6450d64e71 = L.marker(
+                [34.103, -118.3265],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0c3b2ae324f387a42932735a5bd0cab3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b94978e7e232e31a66a4410644cf3cc6 = $(`<div id="html_b94978e7e232e31a66a4410644cf3cc6" style="width: 100.0%; height: 100.0%;"><b>1750 Vine St, Los Angeles, CA</b><br>Event: Principal business location for Motown Records. Business activities related to the racketeering enterprise.         Individuals Involved: Sean Combs, Ethiopia Habtemariam.         Potential Jail Time: Racketeering (20 years).         Potential Fines: Minimum $250,000 (Racketeering)</div>`)[0];
+            popup_0c3b2ae324f387a42932735a5bd0cab3.setContent(html_b94978e7e232e31a66a4410644cf3cc6);
+        
+
+        marker_06ca85fd141e4eb95d8d1a6450d64e71.bindPopup(popup_0c3b2ae324f387a42932735a5bd0cab3)
+        ;
+
+        
+    
+    
+            var marker_80d13ebbcca9fcfb6de0bc6f2940ea9a = L.marker(
+                [34.0209, -118.4814],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0f07404ec58d4a561b63ab36c3787242 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d92cce4c19f152f5adb2c27f1f91e45 = $(`<div id="html_8d92cce4c19f152f5adb2c27f1f91e45" style="width: 100.0%; height: 100.0%;"><b>2220 Colorado Avenue, Santa Monica, CA</b><br>Event: Principal business location for Universal Music Group, where Lucian Charles Grainge supported Combs' illegal enterprises.         Individuals Involved: Lucian Charles Grainge, Sean Combs.         Potential Jail Time: Racketeering (20 years).         Potential Fines: Minimum $250,000 (Racketeering)</div>`)[0];
+            popup_0f07404ec58d4a561b63ab36c3787242.setContent(html_8d92cce4c19f152f5adb2c27f1f91e45);
+        
+
+        marker_80d13ebbcca9fcfb6de0bc6f2940ea9a.bindPopup(popup_0f07404ec58d4a561b63ab36c3787242)
+        ;
+
+        
+    
+    
+            var marker_85d373c4db53b4bb65330d5ffbe5b10e = L.marker(
+                [34.0972, -118.3272],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_0a804b6f3850cbb2f005cf9278345848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5d19bfe398309bd5450fcde53e31807 = $(`<div id="html_d5d19bfe398309bd5450fcde53e31807" style="width: 100.0%; height: 100.0%;"><b>6255 Sunset Boulevard Suite 713, Los Angeles, CA</b><br>Event: Principal place of business for Love Records, involved in organizing 'Freak Offs' and related criminal activities.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years), Sex Trafficking (15 years to Life).         Potential Fines: Minimum $500,000 (Racketeering, Sex Trafficking)</div>`)[0];
+            popup_0a804b6f3850cbb2f005cf9278345848.setContent(html_d5d19bfe398309bd5450fcde53e31807);
+        
+
+        marker_85d373c4db53b4bb65330d5ffbe5b10e.bindPopup(popup_0a804b6f3850cbb2f005cf9278345848)
+        ;
+
+        
+    
+    
+            var marker_dbcc4d596c7af87752c697a2f9db81b8 = L.marker(
+                [25.8081, -80.2519],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_7b597e5d34745e7fd9c63708a412eb84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_773374705ca51df4f62976e7f4699ed6 = $(`<div id="html_773374705ca51df4f62976e7f4699ed6" style="width: 100.0%; height: 100.0%;"><b>Booby Trap on the River, Miami</b><br>Event: Strip club where Combs allegedly forced Jones to recruit commercial sex workers. Linked to sex trafficking and racketeering.         Individuals Involved: Sean Combs, Rodney Jones, sex workers.         Potential Jail Time: Sex Trafficking (15 years to Life), Racketeering (20 years).         Potential Fines: Minimum $500,000 (Sex Trafficking, Racketeering)</div>`)[0];
+            popup_7b597e5d34745e7fd9c63708a412eb84.setContent(html_773374705ca51df4f62976e7f4699ed6);
+        
+
+        marker_dbcc4d596c7af87752c697a2f9db81b8.bindPopup(popup_7b597e5d34745e7fd9c63708a412eb84)
+        ;
+
+        
+    
+    
+            var marker_c82a40c1b7dec8d99596ed838fc0c701 = L.marker(
+                [25.7822, -80.1507],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_10636889e7c7852872e3e102a3611a1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e9da1f00d8ccf1d818d2af0bcb88fc3 = $(`<div id="html_5e9da1f00d8ccf1d818d2af0bcb88fc3" style="width: 100.0%; height: 100.0%;"><b>1 Star Island, Miami, FL</b><br>Event: Property allegedly promised to Rodney Jones in exchange for continued work and compliance with Combs' demands. Linked to racketeering and exploitation.         Individuals Involved: Sean Combs, Rodney Jones.         Potential Jail Time: Racketeering (20 years).         Potential Fines: Minimum $250,000 (Racketeering)</div>`)[0];
+            popup_10636889e7c7852872e3e102a3611a1d.setContent(html_5e9da1f00d8ccf1d818d2af0bcb88fc3);
+        
+
+        marker_c82a40c1b7dec8d99596ed838fc0c701.bindPopup(popup_10636889e7c7852872e3e102a3611a1d)
+        ;
+
+        
+    
+    
+            var marker_a02aa82f3f43bbb75f95a4f0e0926254 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_9ccec912f81bfa664b798e4207d4aaf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d573d609ae1950569b0a7ff470c530ae = $(`<div id="html_d573d609ae1950569b0a7ff470c530ae" style="width: 100.0%; height: 100.0%;"><b>Point 1 - New York City, New York</b><br>Event: Racketeering conspiracy and sexual exploitation occurred at Combs' residence in New York City. Linked to forced labor and sex trafficking activities.         Potential Jail Time: 20 years (Racketeering). Potential Fines: Minimum $250,000.</div>`)[0];
+            popup_9ccec912f81bfa664b798e4207d4aaf0.setContent(html_d573d609ae1950569b0a7ff470c530ae);
+        
+
+        marker_a02aa82f3f43bbb75f95a4f0e0926254.bindPopup(popup_9ccec912f81bfa664b798e4207d4aaf0)
+        ;
+
+        
+    
+    
+            var marker_804ff19cdcca2c3bb6daf365e06a83bb = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_5dfbcadb588bdce222ce0bbc66040635 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2578628acee96e71e2a8332b853b3df7 = $(`<div id="html_2578628acee96e71e2a8332b853b3df7" style="width: 100.0%; height: 100.0%;"><b>Point 2 - Los Angeles, California</b><br>Event: Sexual exploitation and drug distribution occurred at Combs' residence in Los Angeles. Location of 'Freak Offs' involving victims coerced into sex acts.         Potential Jail Time: Life (Drug Distribution, Sex Trafficking). Potential Fines: $1,000,000.</div>`)[0];
+            popup_5dfbcadb588bdce222ce0bbc66040635.setContent(html_2578628acee96e71e2a8332b853b3df7);
+        
+
+        marker_804ff19cdcca2c3bb6daf365e06a83bb.bindPopup(popup_5dfbcadb588bdce222ce0bbc66040635)
+        ;
+
+        
+    
+    
+            var marker_e76e40053b146b50df83f4a49903ec44 = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_013741bf167f16a24f4a0299ec31e37e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d11a9933b97cb67a23b013cb32b240 = $(`<div id="html_80d11a9933b97cb67a23b013cb32b240" style="width: 100.0%; height: 100.0%;"><b>Point 3 - Miami, Florida</b><br>Event: Forced labor and drug distribution, involving forced sexual acts. Linked to racketeering and exploitation of women for prostitution.         Potential Jail Time: 20 years (Racketeering). Potential Fines: $750,000.</div>`)[0];
+            popup_013741bf167f16a24f4a0299ec31e37e.setContent(html_80d11a9933b97cb67a23b013cb32b240);
+        
+
+        marker_e76e40053b146b50df83f4a49903ec44.bindPopup(popup_013741bf167f16a24f4a0299ec31e37e)
+        ;
+
+        
+    
+    
+            var marker_c3b9704c4fba258bfc6326eed306c89e = L.marker(
+                [34.0765, -118.433],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_ad7b3010a70d78a22ec0069e4c05d54d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb5de08e6416d20b83558263405b409 = $(`<div id="html_bcb5de08e6416d20b83558263405b409" style="width: 100.0%; height: 100.0%;"><b>Point 6 - Combs' Primary Residence, Beverly Hills</b><br>Event: Numerous 'Freak Offs' occurred at Combs' primary residence, where victims were subjected to forced sexual acts. Drugs were regularly distributed.         Potential Jail Time: Life (Sex Trafficking, Drug Distribution). Potential Fines: $1,000,000.</div>`)[0];
+            popup_ad7b3010a70d78a22ec0069e4c05d54d.setContent(html_bcb5de08e6416d20b83558263405b409);
+        
+
+        marker_c3b9704c4fba258bfc6326eed306c89e.bindPopup(popup_ad7b3010a70d78a22ec0069e4c05d54d)
+        ;
+
+        
+    
+    
+            var marker_70512248da09f45668abdc998bf85323 = L.marker(
+                [34.0881, -118.3374],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_d71341fc572a2461884a9d6b2ad344cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aefd5b19c4e76680326d7de2bbc8a028 = $(`<div id="html_aefd5b19c4e76680326d7de2bbc8a028" style="width: 100.0%; height: 100.0%;"><b>Point 7 - Shooting at Chalice Recording Studios, Los Angeles</b><br>Event: A violent shooting incident occurred here in September 2022. Combs allegedly instructed others to cover up the event. Linked to obstruction of justice.         Potential Jail Time: 10 to 20 years (Obstruction of Justice). Potential Fines: $250,000.</div>`)[0];
+            popup_d71341fc572a2461884a9d6b2ad344cc.setContent(html_aefd5b19c4e76680326d7de2bbc8a028);
+        
+
+        marker_70512248da09f45668abdc998bf85323.bindPopup(popup_d71341fc572a2461884a9d6b2ad344cc)
+        ;
+
+        
+    
+    
+            var marker_63e4d21de06f27a655ede2be1f55569b = L.marker(
+                [18.3358, -64.8963],
+                {}
+            ).addTo(map_4dbd44aef3055fff718b198bc4a7673c);
+        
+    
+        var popup_118fafa9c069ce3c6815738d683d6788 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78023ba407c1d89aa5907855f245cbce = $(`<div id="html_78023ba407c1d89aa5907855f245cbce" style="width: 100.0%; height: 100.0%;"><b>Point 8 - US Virgin Islands (Yacht Party)</b><br>Event: Drugs were distributed and victims were sexually exploited on Combs' rented yacht in the US Virgin Islands.         Potential Jail Time: Life (Sex Trafficking, Drug Distribution). Potential Fines: $500,000.</div>`)[0];
+            popup_118fafa9c069ce3c6815738d683d6788.setContent(html_78023ba407c1d89aa5907855f245cbce);
+        
+
+        marker_63e4d21de06f27a655ede2be1f55569b.bindPopup(popup_118fafa9c069ce3c6815738d683d6788)
+        ;
+
+        
+    
+</script>
+</html>
